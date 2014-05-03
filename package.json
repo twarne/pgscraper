@@ -1,0 +1,41 @@
+{
+  "name": "pgscraper",
+  "version": "0.1.0",
+  "description": "Gather energy production data from PowerGuide (Solar City)",
+  "main": "lib/PGScraper.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twarne/pgscraper"
+  },
+  "keywords": [
+    "solar",
+    "energy",
+    "powerguide",
+    "solarcity"
+  ],
+  "author": "Tom Warne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twarne/pgscraper/issues"
+  },
+  "homepage": "https://github.com/twarne/pgscraper",
+  "dependencies": {
+    "jsdom": "^0.10.5",
+    "request": "^2.34.0",
+    "underscore": "^1.6.0",
+    "promise": "^5.0.0",
+    "nconf": "^0.6.9",
+    "jquery": "^2.1.1"
+  },
+  "devDependencies": {
+    "grunt-mocha-debug": "0.0.10",
+    "mocha": "^1.10.0",
+    "supertest": "^0.8.2",
+    "grunt": "^0.4.4",
+    "grunt-contrib-jshint": "^0.6.4",
+    "grunt-mocha-cli": "^1.3.0"
+  }
+}
