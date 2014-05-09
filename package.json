@@ -1,6 +1,6 @@
 {
   "name": "pgscraper",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Gather energy production data from PowerGuide (Solar City)",
   "main": "lib/PGScraper.js",
   "scripts": {
